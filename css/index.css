@@ -277,6 +277,12 @@ footer {
 .screenshot-carousel button:hover {
   color: #32325d;
 }
+.screenshot-carousel .screenshot {
+  display: none;
+}
+.screenshot-carousel .screenshot-selected {
+  display: block;
+}
 .splitDescription {
   display: flex;
   flex-direction: column;
