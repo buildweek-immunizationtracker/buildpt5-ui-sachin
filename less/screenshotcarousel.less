@@ -1,0 +1,42 @@
+.screenshot-carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    .tabs{
+        display: flex;
+        flex-direction: column;
+        padding-right: 30px;
+    }
+    .carousel{
+        width: 60%;
+    }
+    button{
+        color: white;
+        font-size: 15px;
+        height: 40px;
+        padding: 0 14px;
+        border: none;
+        text-transform: uppercase;
+        -webkit-transition: color .1s ease;
+        transition: color .1s ease;
+        cursor: pointer;
+        background-color: @header-font-color;
+             }
+    button:hover{
+        color: #32325d
+    }
+    .screenshot{
+        display: none;
+    }
+    .screenshot-selected {
+        display: block;
+        z-index: 2;
+        color: @header-font-color;
+        background-color: white;
+    }
+}
+
