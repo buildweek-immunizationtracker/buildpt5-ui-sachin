@@ -8,7 +8,7 @@ class Tab {
        this.itemElement = document.querySelector(`.screenshot[data-tabs='${this.data}']`) 
       this.screenshotItem = new Screenshot(this.itemElement)
       this.element.addEventListener('click', this.select.bind(this))
-    };
+    }
   
     select() {
        const links = document.querySelectorAll('.tab')

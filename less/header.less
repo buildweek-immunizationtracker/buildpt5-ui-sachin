@@ -1,13 +1,16 @@
 .header-content{
     height: 600px;
     max-width: none;
-    padding-left: 10%;
+    padding-left: 18%;
     padding-right: 10%;
+    background-color: @header-font-color;
     h1{ 
         padding: 5px;
+        color: white;
     }
     p{
         padding: 5px;
+        color: white;
     }
     
     img{
@@ -25,15 +28,35 @@
         padding: 0 14px;
         display: inline-block;
         height: 40px;
-        border-radius: 4px;
         text-transform: uppercase;
         background-color: @button-color;
         color: white;
-          }
+        -webkit-transition: color .1s ease;
+        transition: color .1s ease;
+        cursor: pointer;
+    }
+    button:hover{
+        color: #32325d;
+    }
+          
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+
+    @media @mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        img{
+            display: none;
+        }
+        .header-copy{
+            text-align: center;
+            width: 100%;
+        }
+    }
     
 }
 

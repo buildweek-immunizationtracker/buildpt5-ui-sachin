@@ -1,0 +1,46 @@
+body{
+    background-color: #fefefe;
+}
+.container-mission{
+    max-width: 650px;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding-top: 5%;
+    @media @mobile {
+        width: 85%;
+    }  
+}
+.mission-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h1{
+        color: @header-font-color;
+        @media @mobile{
+            padding-bottom: 5%;
+        }
+    }
+    p{
+        color: #162040;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+}
+.mission-body{
+    width: 100%;
+    margin: 0 auto;
+    blockquote{
+        color:#162040;
+        font-size: 2rem;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    p{
+        color:#162040;
+        font-size: 2rem;
+    }
+}
