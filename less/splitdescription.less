@@ -18,6 +18,14 @@
     p{
         text-align: center;
     }
+    @media @mobile {
+        width: 100%;
+        img {
+            height: 10%;
+            width: 10%;
+        }
+        
+    }
 
 }
 .split{
@@ -25,5 +33,13 @@
     flex-direction: row;
     padding-top: 5px;
     padding-bottom: 5px;
-    justify-content: space-between
+    justify-content: space-between;
+    padding-top: 10%;
+    @media @mobile {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        padding-top: 35%;
+        padding-bottom: 15%;
+    }
 }

@@ -17,6 +17,19 @@
         text-transform: uppercase;
         background-color: @button-color;
         color: white;
+        -webkit-transition: color .1s ease;
+        transition: color .1s ease;
+        cursor: pointer;
+    }
+    button:hover{
+        color: #32325d;
+    }
+    @media @mobile{
+        text-align: center;
+        background-color: @header-font-color;
+        h2{
+        color: white;
+        }
     }
     
 }
