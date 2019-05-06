@@ -342,6 +342,7 @@ footer {
     padding-right: 0;
     padding: 5px;
     padding-top: 30%;
+    padding-bottom: 5%;
   }
   .screenshot-carousel .carousel {
     width: 90%;
@@ -371,6 +372,7 @@ footer {
 @media (max-width: 500px) {
   .splitDescription {
     width: 100%;
+    padding-top: 10%;
   }
   .splitDescription img {
     height: 10%;
@@ -390,7 +392,7 @@ footer {
     flex-direction: column;
     width: 100%;
     justify-content: center;
-    padding-top: 35%;
+    padding-top: 64%;
     padding-bottom: 15%;
   }
 }
